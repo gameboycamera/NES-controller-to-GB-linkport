@@ -10,26 +10,23 @@ The PCB is 1:1 the size of an NES controller PCB allowing it to fit inside an OE
 
 ## Materials Needed
 * **NES Controller to Game Boy Link Port PCB**
-  - [Link]
-  - coupon code
+  - [Link under construction]
 * **Attiny84**
-  - [Link]
+  - Available at various stores such as [LCSC.com](https://lcsc.com/product-detail/Microcontroller-Units-MCUs-MPUs-SOCs_Microchip-Tech-ATTINY84A-PU_C145560.html)
   - Requires a programming tool (Arduino or USBasp)
 * **Game Boy game link cable**
-  - [link]
-  - Coupon code
+  - Available at [RetroModding.com](https://www.retromodding.com/collections/game-boy-pocket/products/gameboy-color-pocket-game-link-cable?ref=gameboycamera)
+    - Use code "**gameboycamera**" at checkout for 5% off
 * **NES controller parts**
-  - shell
-  - buttons
-  - silicone pads
-  - screws
+  - Shell (screws included), buttons, silicone pads available at [RetroModding.com](https://www.retromodding.com/collections/nes?ref=gameboycamera)
+    - Use code "**gameboycamera**" at checkout for 5% off
   - OR use an OEM controller
 
 ### Optional materials:
 * **10k through-hole resistor**
 * **3mm LED**
   - If you choose to add the LED and resistor, the LED will light when a button is pressed
-  - The LED can also assist with troubleshooting wiring issues and removed later
+  - The LED can also assist with troubleshooting button presses and removed later
 * **2x3 2.54mm shrouded angled pin headers**
   - Recommended for ease if you are new to uploading programming Attiny
   - Also useful if you wish to reprogram the Attiny84 later
@@ -41,13 +38,15 @@ The PCB is 1:1 the size of an NES controller PCB allowing it to fit inside an OE
 
 2. Cut & strip the link cable. Use a multimeter to determine which wire coincides with the respective pin
 
-3. Use the diagram on the back of the board to solder the wires
-![](assets/pcbback.png)
+3. Use the diagram on the back of the board to solder the wires - wires should extend from the BACK of the board
+   - ![](assets/pcbback.png)
 
 4. Solder the optional resistor and LED components
+   - ![](assets/resistorled.png)
 
 5. Install the PCB into the NES controller enclosure
-   - Mind the spokes inside the shell for cable routing to ensure the wires aren't ripped from the solder joints
+   - Mind the spokes inside the shell for cable routing to ensure the wires aren't ripped from the solder joints from tension or pulling
+   - [Insert image example]
 
 ## Contributions
 * [HerrZatacke](https://github.com/HerrZatacke) - Attiny84 code, ROM code, [2bit PXLR Studio](https://github.com/HerrZatacke/2bit-pxlr-studio) ROM creator, testing, assistance, support, & ideas
