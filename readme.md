@@ -23,6 +23,7 @@ The PCB is 1:1 the size of an NES controller PCB allowing it to fit inside an OE
 * **NES controller parts**
   - Shell (screws included), buttons, silicone pads available at [RetroModding.com](https://www.retromodding.com/collections/nes?ref=gameboycamera)
     - Use code "**gameboycamera**" at checkout for 5% off
+    - Game Boy DMG dpad & A/B buttons will also fit
   - **OR** use an OEM controller for parts
 
 ### Optional materials:
