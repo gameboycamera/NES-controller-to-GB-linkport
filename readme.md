@@ -41,7 +41,7 @@ The PCB is 1:1 the size of an NES controller PCB allowing it to fit inside an OE
 3. Use the diagram on the back of the board to solder the wires - wires should extend from the BACK of the board
    - ![](assets/pcbback.png)
 
-4. Solder the optional resistor and LED components
+4. Solder the Attiny84 and optional components
    - ![](assets/resistorled.png)
 
 5. Install the PCB into the NES controller enclosure
