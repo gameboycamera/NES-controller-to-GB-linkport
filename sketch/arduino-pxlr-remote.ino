@@ -100,3 +100,4 @@ void loop() {
   digitalWrite(PIN_LED, value ? HIGH : LOW);
   //digitalWrite(PIN_LED, (millis() >> 10) & 0x01); // Blink every (~1s)
 }
+
