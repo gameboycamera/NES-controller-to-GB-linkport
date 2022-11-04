@@ -42,7 +42,7 @@ The PCB is 1:1 the size of an NES controller PCB allowing it to fit inside an OE
       - [Zadig](https://zadig.akeo.ie/) - Windows driver for USBasp
       - [Arduino IDE](https://www.arduino.cc/en/software) - for programming the Attiny84
       - [arduino-pxlr-remote.ino](sketch/arduino-pxlr-remote.ino) - sketch for the Attiny84
-   2. With USBasp inserted in your computer, open Zadag and install WinUSB**
+   2. With USBasp inserted in your computer, open Zadag and install WinUSB
       * You may need to select *Options > List All Devices* in order for the USBasp to appear
    3. Install Arduino IDE on your computer
    4. Install Attiny board manager in Arduino IDE
@@ -50,9 +50,10 @@ The PCB is 1:1 the size of an NES controller PCB allowing it to fit inside an OE
       - Input the following URL: ``` http://drazzy.com/package_drazzy.com_index.json ``` and click "OK"
       - Under *Tools > Board > Board Manager*, search for Attiny and install "ATTinyCore"
    5. Wire Attiny84 to the USBasp
-      - For ease, it is recommended you now solder the Attiny and pin headers to the **BOTTOM** of the board
+      - If you are new to programming an Attiny, it is recommended you now solder the Attiny and pin headers to the **BOTTOM** of the board per silkscreen diagram
       - If it is still connected to your computer, remove the USBasp
-      - Connect the USBasp, cable, and 6 pin adapter - connect it all to the pin headers on the board
+      - Connect the USBasp, 10pin cable, and 6pin adapter - connect it all to the pin headers on the board
+        - Ensure the GND marking designated on the controller PCB with the line coincide with the GND on the 6pin adapter
       - Insert the USBasp into your computer
    6. Program the Attiny84 via Arduino IDE
       - Go to *File > Open* and open arduino-pxlr-remote.ino file
