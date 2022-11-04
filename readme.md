@@ -72,7 +72,7 @@ The PCB is 1:1 the size of an NES controller PCB allowing it to fit inside an OE
    - Note: LED & resistor should be placed on the front of the board
 
 **5. Test to ensure everything works prior to installing the PCB into the NES controller enclosure**
-   - If the LED lights on button press but input is not received in the Game Boy buttons, more than likely this is a wiring issue - double-check the wiring diagram and use your mutimeter to ensure you've soldered the correct wires 
+   - If the LED lights on button press but input is not received in the Game Boy,  this is probably a wiring issue - double-check the wiring diagram and use your mutimeter to ensure you've soldered the correct wires 
    - Mind the spokes inside the shell for cable routing to ensure the wires aren't ripped from the solder joints from tension or pulling, as seen below
      - ![](assets/controllerwirerouting.JPG)
 
