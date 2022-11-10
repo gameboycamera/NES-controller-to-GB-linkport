@@ -8,6 +8,8 @@ The PCB is 1:1 the size of an NES controller PCB allowing it to fit inside an OE
 
 **NOTE:** This board is meant interface with [HerrZatacke](https://github.com/HerrZatacke)'s custom Game Boy Camera ROM [2bit PXLR Studio](https://github.com/HerrZatacke/2bit-pxlr-studio) and [Toxa](https://github.com/untoxa)'s Game Boy Camera ROM [Photo!](https://github.com/untoxa/gb-photo). Currently, it does not work with any other ROMs.
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/gameboycamera)
+
 ## Materials Needed
 * **NES Controller to Game Boy Link Port PCB**
   - [Link under construction]
@@ -89,3 +91,5 @@ The PCB is 1:1 the size of an NES controller PCB allowing it to fit inside an OE
 
 ## Need help?
 In the Game Boy Camera Club Discord #Projects channel, find the NES Controller projects and ask your questions there.
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/gameboycamera)
