@@ -41,6 +41,8 @@ The PCB is 1:1 the size of an NES controller PCB allowing it to fit inside an OE
 
 ## Instructions
 
+DISCLAIMER: I am not responsible for any damage done to you, your posessions, or your family. Please take care when building this.
+
 **1. Program the Attiny84 with [arduino-pxlr-remote.ino](sketch/arduino-pxlr-remote.ino)**
    1. Download the following software:
       - [Zadig](https://zadig.akeo.ie/) - Windows driver for USBasp
