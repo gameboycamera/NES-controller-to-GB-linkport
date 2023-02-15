@@ -12,7 +12,8 @@ The PCB is 1:1 the size of an NES controller PCB allowing it to fit inside an OE
 
 ## Materials Needed
 * **NES Controller to Game Boy Link Port PCB**
-  - Order from [PCBWay](https://www.pcbway.com/project/shareproject/NES_Remote_to_Link_Port_73f81b90.html)
+  - Order from [PCBWay](https://www.pcbway.com/project/shareproject/NES_Remote_to_Link_Port_73f81b90.html) - If you're new to PCBWay, sign up using [THIS LINK](https://pcbway.com/g/ff6yBp) to support me & get $10 off
+  - [![](https://www.pcbway.com/project/img/images/frompcbway-1220.png)](https://pcbway.com/g/ff6yBp)
     - Solder Mask & Silkscreen any color, surface finish HASL or ENIG (HASL may not last as long)
 * **Attiny84**
   - Available at various stores such as [LCSC.com](https://lcsc.com/product-detail/Microcontroller-Units-MCUs-MPUs-SOCs_Microchip-Tech-ATTINY84A-PU_C145560.html)
